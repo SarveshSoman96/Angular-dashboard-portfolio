@@ -1,0 +1,14 @@
+h2{
+    text-align: center;
+}
+mat-divider{
+    color: rgb(91, 92, 89);
+    margin-block: 20px;
+}
+mat-nav-list a{
+    font-size: 1.2rem;
+    margin-block: 1rem;
+    color: rgb(168, 164, 164);
+}
+
+

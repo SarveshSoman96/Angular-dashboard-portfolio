@@ -1,0 +1,25 @@
+<mat-sidenav-container>
+  <mat-sidenav mode="side" opened>
+    <app-side-nav></app-side-nav>
+  </mat-sidenav>
+  <mat-sidenav-content>
+    <mat-toolbar class="mb-4">
+      <span>My Menu</span>
+      <mat-icon class="ms-auto">dashboard</mat-icon>
+      <mat-icon class="mx-3" matBadge="5" matBadgeColor="warn">notifications</mat-icon>
+      <mat-icon >person</mat-icon>
+    </mat-toolbar>
+    <router-outlet></router-outlet>
+    <hr>
+    <mat-toolbar>
+      <a href="">LINKS</a>
+      <a href="">ABOUT US</a>
+      <a href="">BLOG</a>
+      <a href="">LICENSE</a>
+      <strong class="ms-auto">&copy;2022, made with love by <span>SARVESH</span> for web.
+      </strong>
+    </mat-toolbar>
+  </mat-sidenav-content>
+</mat-sidenav-container>
+
+

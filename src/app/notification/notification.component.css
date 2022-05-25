@@ -1,0 +1,62 @@
+mat-card:first-child{
+    background-color: #EA4642;
+    color: azure;
+    width: 95%;
+    line-height: 5px;
+    position: relative;
+    z-index: 10;
+}
+mat-card:nth-of-type(2){
+    margin-top: -50px;
+}
+.content{
+    padding-top: 50px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(500px, 1fr));
+    justify-content: center;
+    gap: 1em;
+    position: relative;
+}
+.btn-close{
+    font-size: 7px;
+}
+.content h2{
+    color: gray;
+}
+.not_styles > div, .not_states .alert:first-of-type{
+    color: azure;
+    background-color: #00CAE3;
+}
+.not_states{
+    color: azure;
+}
+.not_states .alert:nth-of-type(2){
+    background-color: #55B559;
+}
+.not_states .alert:nth-of-type(3){
+    background-color: #FF9E0F;
+}
+.not_states .alert:nth-of-type(4){
+    background-color: #F55145;
+} 
+.not_states .alert:last-of-type{
+    background-color: #A72ABD;
+} 
+.not-btns{
+    text-align: center;
+}
+.not-btns .btn_row_1 > button,.not-btns .btn_row_2 > button{
+    all: unset;
+    width: 200px;
+    padding: 11px 20px;
+    color: azure;
+    border-radius: 2px;
+    background-color: #EA4642;
+    cursor: pointer;
+}
+.not-btns p{
+    font-size: 0.9rem;
+}
+.not-btns .btn_row_1 > button:nth-of-type(2),.not-btns .btn_row_2 > button:nth-of-type(2){
+    margin: 10px 50px;
+}

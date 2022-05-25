@@ -1,0 +1,33 @@
+
+mat-sidenav{
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 20vw;
+    padding: 15px;
+    background-color: rgb(243, 243, 243);
+}
+mat-sidenav-content{
+    padding: 15px;
+    min-height: 100vh;
+    background: rgb(212, 208, 208);
+}
+mat-toolbar{
+    background: rgb(212, 208, 208);
+}
+a{
+    text-decoration: none;
+    margin-right: 20px;
+}
+a,strong{
+    font-weight: normal;
+    color: grey;
+    font-size: 1.1rem;
+}
+strong span{
+    color: purple;
+}
+hr{
+    margin: 40px 0 25px 0;
+    background-color: grey;
+}

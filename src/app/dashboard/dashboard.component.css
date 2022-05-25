@@ -1,0 +1,59 @@
+.topbar{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 2em;
+}
+.logo{
+    width: 90px;
+    height: 90px;
+    border-radius: 5px;
+    margin-top: -30px;
+    display: grid;
+    place-items: center;
+}
+.logo mat-icon{
+    color: #fff;
+}
+.info{
+    text-align: right;
+}
+.space .logo{
+    background-color: #FC940C;
+}
+.revenue .logo{
+    background-color: #4FA953;
+}
+.issues .logo{
+    background-color: #E8423E;
+}
+
+.follower .logo{
+    background-color: rgb(15,182,203);
+}
+p mat-icon{
+    /* color: red; */
+    color: gray;
+    margin-right: 10px;
+}
+small{
+    color: grey;
+}
+.space > p mat-icon:nth-of-type(1){
+    color: red;
+}
+.charts > div{
+    background-color: white;
+    border-radius: 5px;
+}
+
+canvas:last-child{
+    margin-top: -1rem;
+    background-color: #E8423E;
+    border-radius: 10px;
+}
+
+canvas#myLineChart{
+    margin-top: -1rem;
+    background-color: #4FA953;
+    border-radius: 10px;
+}

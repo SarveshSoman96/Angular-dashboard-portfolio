@@ -1,0 +1,72 @@
+<div class="topbar">
+    <mat-card class="top_card space">
+        <div class="top_content d-flex justify-content-between">
+            <div class="logo">
+                <mat-icon>library_books</mat-icon>
+            </div>
+            <div class="info">
+                <p>Used space</p>
+                <h2>49/50 space</h2>
+            </div>
+        </div>
+        <mat-divider class=""></mat-divider>
+        <p class="d-flex align-items-center mt-3"><mat-icon>report_problem</mat-icon> <small>Get me more space</small></p>
+    </mat-card>
+    <mat-card class="top_card revenue">
+        <div class="top_content d-flex justify-content-between">
+            <div class="logo">
+                <mat-icon>account_balance</mat-icon>
+            </div>
+            <div class="info">
+                <p>Revenue</p>
+                <h2>49/50 space</h2>
+            </div>
+        </div>
+        <mat-divider class=""></mat-divider>
+        <p class="d-flex align-items-center mt-3"><mat-icon>account_balance</mat-icon><small>Get me more space</small></p>
+    </mat-card>
+    <mat-card class="top_card issues">
+        <div class="top_content d-flex justify-content-between">
+            <div class="logo">
+                <mat-icon>error</mat-icon>
+            </div>
+            <div class="info">
+                <p>Fixed Issues</p>
+                <h2>49/50 space</h2>
+            </div>
+        </div>
+        <mat-divider class=""></mat-divider>
+        <p class="d-flex align-items-center mt-3"><mat-icon> local_offer</mat-icon><small>Get me more space</small></p>
+    </mat-card>
+    <mat-card class="top_card follower">
+        <div class="top_content d-flex justify-content-between">
+            <div class="logo">
+                <mat-icon> near_me</mat-icon>
+            </div>
+            <div class="info">
+                <p>Followers</p>
+                <!-- <h2> {{34,245 | currency:"USD":true}} </h2> -->
+                <h2>$34,245</h2>
+            </div>
+        </div>
+        <mat-divider class=""></mat-divider>
+        <p class="d-flex align-items-center mt-3"><mat-icon>rotate_right</mat-icon><small>Get me more space</small></p>
+    </mat-card>
+</div>
+<div class="charts row gap-5 justify-content-center mt-5">
+    <div class="col-lg-5">
+        <canvas id="myLineChart"></canvas>
+        <mat-divider class="my-3"></mat-divider>
+        <h3>Weekly Sales</h3>
+        <P>Last increase in this sales</P>
+    </div>
+    <div class="col-lg-5">
+        <div class="chart_container">
+        <canvas id="myBarChart"></canvas>
+        </div>
+        <mat-divider class="my-3"></mat-divider>
+        <h3>Completed Tasks</h3>
+        <P>Last Campeign Performance</P>
+    </div>
+</div>
+
